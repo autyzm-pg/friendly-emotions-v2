@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
@@ -24,23 +24,36 @@
 
 
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//////////////////////////////////////////////////////////////////////
+    <style name="friendly_wo">
+        <item name="android:textSize">59.72sp</item>
+        <item name="android:textColor">@color/Primary1000</item>
+        <item name="android:fontFamily">@font/rubik</item>
+    </style>
 
-<!--    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
-<!--        &lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+    <style name="supporting_">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/Shades100</item>
+        <item name="android:fontFamily">@font/rubik</item>
+    </style>
 
-<!--        <item name="colorPrimary">@color/colorPrimary</item>-->
-<!--        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+    <style name="here_you_ca">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/Primary1000</item>
+        <item name="android:fontFamily">@font/rubik</item>
+    </style>
 
+    <style name="frame_233">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/Shades100</item>
+        <item name="android:fontFamily">@font/rubik</item>
+    </style>
 
-<!--        &lt;!&ndash;<item name="colorAccent">@color/colorAccent</item>&ndash;&gt;-->
-
-<!--        &lt;!&ndash;<item name="android:colorAccent">@color/colorAccent</item>&ndash;&gt;-->
-<!--        <item name="android:colorForeground">@color/colorAccent</item>-->
-<!--        <item name="android:textColor">@color/colorAccent</item>-->
-
-
-<!--    </style>-->
+    <style name="click_me">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/Primary700</item>
+        <item name="android:fontFamily">@font/rubik</item>
+    </style>
 
 </resources>

@@ -1,5 +1,5 @@
 <resources>
-    <string name="intro_FriendlyEmotions">Przyjazne Emocje Ustawienia</string>
+    <string name="friendly_wo">Przyjazne Emocje - Konfiguracja</string>
     <string name="intro_short">Rozpoznawanie emocji na podstawie zdjęć i ikon - konfiguracja</string>
     <string name="intro_description">Aplikacje powstają w ramach wspólnego projektu \"non-profit\" i \"open-source\"
         \nPolitechniki Gdańskiej i fundacji Instytut Wspomagania Rozwoju Dziecka w Gdańsku (http://iwrd.pl/).
@@ -318,6 +318,13 @@
         \n\nJeśli aplikacja jest świeżo zainstalowana należy wpierw włączyć aplikację "Przyjazne Emocje Ustawienia", domyślne poziomy zostaną automatycznie wgrane.</string>
 
 
-
+    <string name="create_a_ta">CREATE A TASK</string>
+    <string name="supporting_">Rozpoznawanie emocji na podstawie zdjęć i ikon - konfiguracja</string>
+    <string name="here_you_ca">"Zaczynajmy! Kliknij w dowolnym miejscu, aby kontynuować."</string>
+    <string name="fully_and_a">W pełni darmowe i otwartoźródłowe rozwiązanie</string>
+    <string name="developed_b">Opracowane przez: Politechnikę Gdańską i Instytut Wspomagania Rozwoju Dziecka, https://www.fundacja.iwrd.pl</string>
+    <string name="part_of_the">Część projektu Przyjazne Aplikacje: sprawdź nasze inne gry edukacyjne!</string>
+    <string name="designed_fo">Przeznaczone dla dzieci z autyzmem: oddzielna aplikacja ustawień dla opiekuna/terapeuty, instalowana automatycznie</string>
+    <string name="to_learn_mo">Aby dowiedzieć się więcej: odwiedź stronę internetową projektu!: https://tiapps.org/</string>
 
 </resources>

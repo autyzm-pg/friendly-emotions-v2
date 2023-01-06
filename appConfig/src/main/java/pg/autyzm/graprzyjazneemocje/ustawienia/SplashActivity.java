@@ -6,10 +6,11 @@ import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.os.Build;
 import android.os.Bundle;
-import android.os.Handler;
 import android.util.DisplayMetrics;
+import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.RelativeLayout;
 
 import androidx.annotation.RequiresApi;
 
@@ -27,6 +28,7 @@ public class SplashActivity extends Activity {
     protected Locale myLocale;
     Intent refresh;
 
+    private RelativeLayout mainLayout;
 
     public Timer timer;
     public int userInteractionTimeout = 0;
@@ -42,18 +44,20 @@ public class SplashActivity extends Activity {
 
         sqlm = SqliteManager.getInstance(this);
         setLocale(sqlm.getCurrentLang());
-        setContentView(R.layout.activity_splash);
+        setContentView(R.layout.starting_board_1);
 
-//        LinearLayout layout = (LinearLayout) findViewById(R.id.activity_splash);
-//        layout.setOnClickListener(new View.OnClickListener() {
-//
-//            @Override
-//            public void onClick(View v) {
-//
-//                startActivity(refresh);
-//            }
-//
-//        });
+
+        mainLayout=(RelativeLayout)findViewById(R.id.starting_board_1);
+
+        mainLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+
+                refresh.putExtra(CURRENT_LANG, sqlm.getCurrentLang());
+                startActivity(refresh);
+                finish();
+            }
+        });
 
     }
 
@@ -68,12 +72,14 @@ public class SplashActivity extends Activity {
 
         refresh = new Intent(this, ActivityChoice.class);
 
-        Handler handler = new Handler();
+/*        Handler handler = new Handler();
         handler.postDelayed(() -> {
             refresh.putExtra(CURRENT_LANG, localeName);
             startActivity(refresh);
             finish();
-        }, 5000);
+        }, 5000);*/
+
+
 
     }
 

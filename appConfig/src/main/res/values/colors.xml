@@ -21,4 +21,20 @@
     <color name="background_center">#1597fa</color>
     <color name="background_street">#181818</color>
     <color name="frame">#98FB98</color>
+
+    /////////////////////////////////////////////////
+    <color name="Primary1000">#2C0042</color>
+    <color name="Primary900">#675173</color>
+    <color name="Primary800">#8A6B99</color>
+    <color name="Primary700">#A17DB2</color>
+    <color name="Primary500">#C99FDE</color>
+    <color name="Primary300">#E3C6F2</color>
+    <color name="Primary50">#F3E2FB</color>
+    <color name="Shades0">#FFFFFF</color>
+    <color name="Shades100">#000000</color>
+    <color name="Neutral100">#F1F5F9</color>
+    <color name="Neutral200">#E2E8F0</color>
+    <color name="Neutral300">#CBD5E1</color>
+    <color name="Neutral400">#94A3B8</color>
+    <color name="Overlay_S1_500">#80FFFFFF</color>
 </resources>

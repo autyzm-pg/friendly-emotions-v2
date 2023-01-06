@@ -1,6 +1,6 @@
 <resources>
 
-    <string name="intro_FriendlyEmotions">Friendly Emotions Settings</string>
+    <string name="friendly_wo">Friendly Emotions - Configuration</string>
     <string name="intro_short">Recognition of emotions based on photos and icons - configuration</string>
     <string name="intro_description">
                 The applications are developed under a non-profit and open-source project
@@ -251,7 +251,7 @@ The test mode does not use hints and reinforcements, the therapist should refrai
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
     <string name="intro_FriendlyEmotions_game">Friendly Emotions</string>
-    <string name="intro_short_game">Recognition of emotions based on photos and icons</string>
+    <string name="intro_short_game">Recognition of emotions based on photos and icons - configuration</string>
     <string name="intro_description_game">This is a non-profit and open-source application. \nMore information on the website: https://tiapps.org/en/home/</string>
     <string name="intro_instruction_game">For proper use you need a pair of applications: \nFriendly Emotions and Friendly Emotions Settings!</string>
 
@@ -317,6 +317,16 @@ The test mode does not use hints and reinforcements, the therapist should refrai
     <string name="noLevelFoundMessage">There is no level in the application files that can be loaded.
         \n\nIf the application is freshly installed, open "Friendly Emotions Settings" first, the default levels will be automatically uploaded.</string>
 
+
+
+    <string name="create_a_ta">CREATE A TASK</string>
+    <string name="supporting_">Supporting the development of passive speech in a child with autism</string>
+    <string name="here_you_ca">Let\'s go! Click anywhere to continue.</string>
+    <string name="fully_and_a">Fully and always free: non-profit and open-source</string>
+    <string name="developed_b">Developed by: Gdansk University of Technology and Institute for Child Development, https://www.fundacja.iwrd.pl/en/</string>
+    <string name="part_of_the">Part of the Friendly Apps project: check out our other educational games!</string>
+    <string name="designed_fo">Designed for children with autism: e.g. the separate settings app for a caregiver/therapist, installed automatically</string>
+    <string name="to_learn_mo">To learn more: visit the project website!: https://tiapps.org/</string>
 
 </resources>
 

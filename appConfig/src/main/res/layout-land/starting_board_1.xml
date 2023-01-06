@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/starting_board_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToOutline="true"
+    android:screenOrientation="landscape">
+
+    <RelativeLayout
+        android:id="@+id/frame_233"
+        android:layout_width="658dp"
+        android:layout_height="348dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="238dp"
+        android:background="@drawable/frame_233" >
+
+        <RelativeLayout
+            android:id="@+id/frame_236"
+            android:layout_width="626dp"
+            android:layout_height="36dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="16dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="16dp">
+
+            <RelativeLayout
+                android:id="@+id/emoji_no_mo"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@drawable/no_money"
+                />
+
+            <TextView
+                android:id="@+id/fully_and_a"
+                android:layout_width="580dp"
+                android:layout_height="30dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_toEndOf="@+id/emoji_no_mo"
+                android:text="@string/fully_and_a"
+                android:textAppearance="@style/frame_233"
+                android:translationY="3.15sp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/frame_237"
+            android:layout_width="626dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="16dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="68dp">
+
+            <RelativeLayout
+                android:id="@+id/school"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@drawable/school"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="12dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="12dp"
+                />
+
+            <TextView
+                android:id="@+id/developed_b"
+                android:layout_width="580dp"
+                android:layout_height="60dp"
+                android:text="@string/developed_b"
+                android:textAppearance="@style/frame_233"
+                android:lineSpacingExtra="6sp"
+                android:gravity="top"
+                android:layout_toEndOf="@+id/school"
+                android:layout_marginStart="10dp"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/frame_240"
+            android:layout_width="626dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="16dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="144dp">
+
+            <RelativeLayout
+                android:id="@+id/puzzle"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@drawable/puzzle"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="12.5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="12.5dp"
+                />
+
+            <TextView
+                android:id="@+id/part_of_the"
+                android:layout_width="581dp"
+                android:layout_height="60dp"
+                android:text="@string/part_of_the"
+                android:textAppearance="@style/frame_233"
+                android:lineSpacingExtra="6sp"
+                android:gravity="top"
+                android:layout_toEndOf="@+id/puzzle"
+                android:layout_marginStart="10dp"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/frame_239"
+            android:layout_width="626dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="16dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="220dp">
+
+            <RelativeLayout
+                android:id="@+id/teddy_bear"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@drawable/teddy_bear"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="11.39dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="11.39dp"
+                />
+
+            <TextView
+                android:id="@+id/designed_fo"
+                android:layout_width="588.81dp"
+                android:layout_height="60dp"
+                android:text="@string/designed_fo"
+                android:textAppearance="@style/frame_233"
+                android:lineSpacingExtra="6sp"
+                android:translationY="-3.15sp"
+                android:gravity="top"
+                android:layout_toEndOf="@+id/teddy_bear"
+                android:layout_marginStart="10dp"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/frame_238"
+            android:layout_width="626dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="16dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="296dp">
+
+            <RelativeLayout
+                android:id="@+id/world"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@drawable/world"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+
+                />
+
+            <TextView
+                android:id="@+id/to_learn_mo"
+                android:layout_width="580dp"
+                android:layout_height="30dp"
+                android:text="@string/to_learn_mo"
+                android:textAppearance="@style/frame_233"
+                android:lineSpacingExtra="6sp"
+                android:translationY="3.15sp"
+                android:gravity="top"
+                android:layout_toEndOf="@+id/world"
+                android:layout_marginStart="10dp"
+                />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/frame_241"
+        android:layout_width="802dp"
+        android:layout_height="149dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="118dp"
+        android:layout_marginTop="49dp">
+
+        <RelativeLayout
+            android:id="@+id/frame_160"
+            android:layout_width="802dp"
+            android:layout_height="90dp">
+
+            <RelativeLayout
+                android:id="@+id/logo_friend"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="@drawable/friendly_emotions_settings_color"
+                android:clipToOutline="true"
+                android:elevation="10dp" />
+
+            <TextView
+                android:id="@+id/friendly_wo"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginLeft="120dp"
+                android:autoSizeTextType="uniform"
+                android:gravity="top"
+                android:lineSpacingExtra="19sp"
+                android:text="@string/friendly_wo"
+                android:textAppearance="@style/friendly_wo"
+                android:textStyle="bold"
+                android:translationY="9.41sp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/supporting_"
+            android:layout_width="787dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="7.5dp"
+            android:layout_marginTop="113dp"
+            android:layout_marginEnd="7.5dp"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="8sp"
+            android:text="@string/supporting_"
+            android:textAppearance="@style/supporting_"
+            android:translationY="-3.78sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/starting_bo"
+        android:layout_width="match_parent"
+        android:layout_height="124dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:clipToOutline="true"
+        android:background="@drawable/starting_bo">
+
+        <RelativeLayout
+            android:id="@+id/logos"
+            android:layout_width="791dp"
+            android:layout_height="107dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="116dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="9dp">
+
+            <RelativeLayout
+                android:id="@+id/gdansk_univ"
+                android:layout_width="409dp"
+                android:layout_height="85.28dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="10.86dp"
+                android:layout_marginBottom="10.86dp"
+                android:background="@drawable/gdansk_university_of_technology_and_eti_logo" />
+
+            <RelativeLayout
+                android:id="@+id/iwrd_logo"
+                android:layout_width="307dp"
+                android:layout_height="107dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="484dp"
+                android:background="@drawable/iwrd_logo"
+                />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:clipToOutline="true"
+        android:background="@drawable/background"
+        android:translationZ="-100px">
+
+        <RelativeLayout
+            android:id="@+id/frame_1"
+            android:layout_width="206dp"
+            android:layout_height="110dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="353dp"
+            android:layout_marginEnd="70dp"
+            android:background="@drawable/frame_1">
+
+            <TextView
+                android:id="@+id/here_you_ca"
+                android:layout_width="186dp"
+                android:layout_height="90dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:lineSpacingExtra="6sp"
+                android:text="@string/here_you_ca"
+                android:textAppearance="@style/here_you_ca" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/mascot"
+            android:layout_width="229dp"
+            android:layout_height="199dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="141dp"
+            android:layout_marginEnd="47dp"
+            android:background="@drawable/mascot"
+            android:clipToOutline="true" />
+
+        <RelativeLayout
+            android:id="@+id/illustratio"
+            android:layout_width="461dp"
+            android:layout_height="461dp"
+            android:layout_below="@+id/mascot"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="627dp"
+            android:layout_marginTop="-180dp"
+            android:background="@drawable/backgroundellipse"
+            android:clipToOutline="true"
+            android:translationZ="-10px" />
+
+        </RelativeLayout>
+
+</RelativeLayout>
