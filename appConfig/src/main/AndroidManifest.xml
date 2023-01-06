@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pg.autyzm.graprzyjazneemocje">
+
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/p"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:screenOrientation="landscape"
+        android:label="@string/app_name_game">
+
+        <activity
+            android:name=".ustawienia.PermissionActivity"
+            android:screenOrientation="landscape"
+            android:icon="@mipmap/pu"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".gra.PermissionActivity"
+            android:screenOrientation="landscape"
+            android:label="@string/app_name_game">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+        <activity
+            android:name=".ustawienia.SplashActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ustawienia.ActivityChoice"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ustawienia.MainActivity"
+            android:screenOrientation="landscape">
+            <!--android:screenOrientation="landscape"-->
+            <intent-filter>
+                <action android:name="pg.autyzm.przyjazneemocje.custom"/>
+                <category android:name="android.intent.category.DEFAULT" />
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ustawienia.AddMaterial"
+            android:screenOrientation="landscape">
+            <!--android:screenOrientation="landscape"-->
+        </activity>
+
+        <activity
+            android:name=".ustawienia.configuration.LevelConfigurationActivity"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ustawienia.camera.MainCameraActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ustawienia.camera.PictureActivity" />
+
+        <activity
+            android:name=".ustawienia.configuration.MaterialForTestActivity"
+            android:screenOrientation="landscape" />
+
+        <activity
+            android:name=".ustawienia.chooseImages.ChooseImages"
+            android:label="@string/title_choose_img"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Dialog" />
+
+<!--        <activity-->
+<!--            android:name="pg.smile.MainActivity"-->
+<!--            android:screenOrientation="landscape" >-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+<!--                &lt;!&ndash;category android:name="android.intent.category.DEFAULT" /&ndash;&gt;-->
+<!--            </intent-filter>-->
+<!--        </activity>-->
+
+<!--        game         -->
+
+
+        <activity android:name=".gra.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".gra.MainActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".gra.RewardAndHintActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".gra.animation.AnimationActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".gra.animation.AnimationEndActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".gra.EndActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".gra.LevelFailedActivity"
+            android:label="@string/title_activity_level_failed"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".gra.VideoWelcomeActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".gra.Blank"
+            android:screenOrientation="landscape" />
+
+    </application>
+
+</manifest>
