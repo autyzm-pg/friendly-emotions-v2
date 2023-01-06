@@ -19,6 +19,7 @@ android {
     androidResources {
         noCompress 'xml'
     }
+    namespace 'friendlyapps.animationsloader'
 }
 
 dependencies {

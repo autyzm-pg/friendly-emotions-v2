@@ -16,6 +16,7 @@ android {
     }
     productFlavors {
     }
+    namespace 'pg.smile'
 }
 
 dependencies {
