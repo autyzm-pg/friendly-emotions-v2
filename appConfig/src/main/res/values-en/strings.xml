@@ -327,6 +327,11 @@ The test mode does not use hints and reinforcements, the therapist should refrai
     <string name="part_of_the">Part of the Friendly Apps project: check out our other educational games!</string>
     <string name="designed_fo">Designed for children with autism: e.g. the separate settings app for a caregiver/therapist, installed automatically</string>
     <string name="to_learn_mo">To learn more: visit the project website!: https://tiapps.org/</string>
+    <string name="Welcome_to_Friendly_Emotions">Welcome to Friendly Emotions</string>
+    <string name="teaching_wo">Teaching emotions by using behavioral treatment techniques, consulted with therapists.</string>
+    <string name="_continue">CONTINUE</string>
+    <string name="_back">BACK</string>
+    <string name="_skip">SKIP</string>
 
 </resources>
 

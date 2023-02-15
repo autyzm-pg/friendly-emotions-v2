@@ -104,6 +104,11 @@
             android:label="@string/title_choose_img"
             android:screenOrientation="landscape"
             android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".ustawienia.StartingBoard2"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme_1">
+        </activity>
 
 <!--        <activity-->
 <!--            android:name="pg.smile.MainActivity"-->
@@ -154,6 +159,7 @@
         <activity
             android:name=".gra.Blank"
             android:screenOrientation="landscape" />
+
 
     </application>
 

@@ -321,10 +321,15 @@
     <string name="create_a_ta">CREATE A TASK</string>
     <string name="supporting_">Rozpoznawanie emocji na podstawie zdjęć i ikon - konfiguracja</string>
     <string name="here_you_ca">"Zaczynajmy! Kliknij w dowolnym miejscu, aby kontynuować."</string>
-    <string name="fully_and_a">W pełni darmowe i otwartoźródłowe rozwiązanie</string>
+    <string name="fully_and_a">W pełni darmowe i otwarte rozwiązanie</string>
     <string name="developed_b">Opracowane przez: Politechnikę Gdańską i Instytut Wspomagania Rozwoju Dziecka, https://www.fundacja.iwrd.pl</string>
     <string name="part_of_the">Część projektu Przyjazne Aplikacje: sprawdź nasze inne gry edukacyjne!</string>
     <string name="designed_fo">Przeznaczone dla dzieci z autyzmem: oddzielna aplikacja ustawień dla opiekuna/terapeuty, instalowana automatycznie</string>
-    <string name="to_learn_mo">Aby dowiedzieć się więcej: odwiedź stronę internetową projektu!: https://tiapps.org/</string>
+    <string name="to_learn_mo">Aby dowiedzieć się więcej: odwiedź https://tiapps.org/</string>
+    <string name="Welcome_to_Friendly_Emotions">Witaj w aplikacji Przyjazne Emocje</string>
+    <string name="teaching_wo">Uczenie emocji poprzez stosowanie technik terapii behawioralnej, konsultacje z terapeutami.</string>
+    <string name="_continue">DALEJ</string>
+    <string name="_back">WSTECZ</string>
+    <string name="_skip">POMIŃ</string>
 
 </resources>
