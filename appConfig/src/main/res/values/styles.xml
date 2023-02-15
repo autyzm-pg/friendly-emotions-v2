@@ -21,7 +21,9 @@
         <item name="android:background">@color/colorHighlight</item>
         <item name="android:shape">oval</item>
     </style>
-
+    <style name="AppTheme_1" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+    </style>
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -50,10 +52,24 @@
         <item name="android:fontFamily">@font/rubik</item>
     </style>
 
-    <style name="click_me">
+    <style name="button_back_text">
         <item name="android:textSize">20sp</item>
         <item name="android:textColor">@color/Primary700</item>
         <item name="android:fontFamily">@font/rubik</item>
+    </style>
+
+    <style name="button_continue_text">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/rubik</item>
+    </style>
+
+    <style name="welcome_to_">
+
+        <item name="android:textSize">34.56sp</item>
+        <item name="android:textColor">@color/Primary1000</item>
+        <item name="android:fontFamily">@font/rubik</item>
+
     </style>
 
 </resources>

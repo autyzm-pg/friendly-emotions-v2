@@ -70,7 +70,8 @@ public class SplashActivity extends Activity {
         res.updateConfiguration(conf, dm);
         sqlm.updateCurrentLang(localeName);
 
-        refresh = new Intent(this, ActivityChoice.class);
+        //refresh = new Intent(this, ActivityChoice.class);
+        refresh = new Intent(this, StartingBoard2.class);
 
 /*        Handler handler = new Handler();
         handler.postDelayed(() -> {
