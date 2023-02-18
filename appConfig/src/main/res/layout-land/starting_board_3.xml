@@ -2,7 +2,7 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/starting_board_2"
+    android:id="@+id/starting_board_3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:clipToOutline="true"
@@ -10,19 +10,29 @@
     android:screenOrientation="landscape">
 
     <RelativeLayout
-        android:id="@+id/frame_245"
+        android:id="@+id/frame_248"
         android:layout_width="348dp"
         android:layout_height="348dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="105dp"
         android:background="@drawable/frame_248">
 
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="27dp"
+            app:srcCompat="@drawable/undraw_personal_settings" />
+
         <RelativeLayout
             android:id="@+id/res_1"
             android:layout_width="229dp"
             android:layout_height="250dp"
             android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
             android:layout_marginBottom="-31dp">
 
             <RelativeLayout
@@ -30,7 +40,17 @@
                 android:layout_width="229dp"
                 android:layout_height="199dp"
                 android:layout_alignParentBottom="true"
-                android:background="@drawable/mascot"></RelativeLayout>
+                android:background="@drawable/mascot">
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="-55dp"
+                    app:srcCompat="@drawable/icon_settings" />
+            </RelativeLayout>
 
             <RelativeLayout
                 android:id="@+id/talk_bubble_1"
@@ -42,94 +62,6 @@
                 android:background="@drawable/talk_bubble_2" />
         </RelativeLayout>
 
-        <RelativeLayout
-            android:id="@+id/res_2"
-            android:layout_width="129dp"
-            android:layout_height="150dp"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="43dp"
-            android:layout_marginBottom="-31dp"
-            android:rotation="333">
-
-            <RelativeLayout
-                android:id="@+id/picture"
-                android:layout_width="70dp"
-                android:layout_height="50dp"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentBottom="true"
-                android:layout_marginEnd="19dp"
-                android:layout_marginBottom="3dp"
-                android:background="@drawable/picture_1">
-
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:id="@+id/mascot_2"
-                android:layout_width="90dp"
-                android:layout_height="64dp"
-                android:layout_above="@+id/picture"
-                android:layout_alignParentEnd="true"
-                android:layout_marginEnd="17dp"
-                android:layout_marginBottom="-18dp"
-                android:background="@drawable/mascot"></RelativeLayout>
-
-            <RelativeLayout
-                android:id="@+id/talk_bubble_2"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_above="@+id/picture"
-                android:layout_alignParentEnd="true"
-                android:layout_marginLeft="50dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginBottom="24dp"
-                android:background="@drawable/talk_bubble_2" />
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:id="@+id/res_3"
-            android:layout_width="129dp"
-            android:layout_height="150dp"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginTop="3dp"
-            android:layout_marginEnd="2dp"
-            android:layout_marginBottom="-31dp"
-            android:rotation="40">
-
-            <RelativeLayout
-                android:id="@+id/picture_3"
-                android:layout_width="70dp"
-                android:layout_height="50dp"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentBottom="true"
-                android:layout_marginEnd="19dp"
-                android:layout_marginBottom="3dp"
-                android:background="@drawable/picture_1">
-
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:id="@+id/mascot_3"
-                android:layout_width="90dp"
-                android:layout_height="64dp"
-                android:layout_above="@+id/picture_3"
-                android:layout_alignParentEnd="true"
-                android:layout_marginEnd="17dp"
-                android:layout_marginBottom="-18dp"
-                android:background="@drawable/mascot"></RelativeLayout>
-
-            <RelativeLayout
-                android:id="@+id/talk_bubble_3"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_above="@+id/picture_3"
-                android:layout_alignParentEnd="true"
-                android:layout_marginLeft="50dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginBottom="24dp"
-                android:background="@drawable/talk_bubble_2" />
-        </RelativeLayout>
-
     </RelativeLayout>
 
     <TextView
@@ -137,20 +69,21 @@
         android:layout_width="643dp"
         android:layout_height="52dp"
         android:layout_centerHorizontal="true"
-        android:text="@string/Welcome_to_Friendly_Emotions"
+        android:text="@string/Create_tasks"
         android:textStyle="bold"
         android:textAppearance="@style/welcome_to_"
         android:textAlignment="center"
         android:layout_marginBottom="-90dp"
-        android:layout_alignBottom="@+id/frame_245"/>
+        android:layout_alignBottom="@+id/frame_248"/>
 
     <TextView
         android:id="@+id/Welcome_to_Friendly_Emotions_2"
         android:layout_width="match_parent"
         android:layout_height="102dp"
         android:layout_centerHorizontal="true"
-        android:text="@string/teaching_wo"
+        android:text="@string/Create_tasks_2"
         android:textAppearance="@style/welcome_to_"
+        android:autoSizeTextType="uniform"
         android:textAlignment="center"
         android:layout_marginBottom="-100dp"
         android:layout_alignBottom="@+id/Welcome_to_Friendly_Emotions_1"/>
@@ -176,7 +109,7 @@
         android:layout_marginBottom="25dp">
 
         <Button
-            android:id="@+id/starting_board_2_button_continue"
+            android:id="@+id/starting_board_3_button_continue"
             android:layout_width="match_parent"
             android:layout_height="54dp"
             android:layout_marginTop="30dp"
@@ -199,14 +132,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="100dp"
-            app:srcCompat="@drawable/onboarding_point_selected" />
+            app:srcCompat="@drawable/onboarding_point" />
 
         <ImageView
             android:id="@+id/imageView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="130dp"
-            app:srcCompat="@drawable/onboarding_point" />
+            app:srcCompat="@drawable/onboarding_point_selected" />
         <ImageView
             android:id="@+id/imageView6"
             android:layout_width="wrap_content"
@@ -227,7 +160,7 @@
         android:layout_marginBottom="25dp">
 
         <Button
-            android:id="@+id/starting_board_2_button_back"
+            android:id="@+id/starting_board_3_button_back"
             android:background="@drawable/button_back"
             android:elevation="2dp"
             android:textAppearance="@style/button_back_text"
@@ -248,7 +181,7 @@
     </FrameLayout>
 
     <Button
-        android:id="@+id/starting_board_2_button_skip"
+        android:id="@+id/starting_board_3_button_skip"
         android:layout_width="85dp"
         android:layout_height="54dp"
         android:layout_alignParentRight="true"
