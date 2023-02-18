@@ -24,7 +24,8 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentBottom="true"
             android:layout_marginLeft="27dp"
-            app:srcCompat="@drawable/undraw_personal_settings" />
+            android:layout_marginBottom="42dp"
+            app:srcCompat="@drawable/undraw_portfolio" />
 
         <RelativeLayout
             android:id="@+id/res_1"
@@ -41,15 +42,6 @@
                 android:layout_height="199dp"
                 android:layout_alignParentBottom="true"
                 android:background="@drawable/mascot">
-
-                <ImageView
-                    android:id="@+id/imageView7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginEnd="-55dp"
-                    app:srcCompat="@drawable/icon_settings" />
             </RelativeLayout>
 
             <RelativeLayout
@@ -69,7 +61,7 @@
         android:layout_width="643dp"
         android:layout_height="52dp"
         android:layout_centerHorizontal="true"
-        android:text="@string/Create_tasks"
+        android:text="@string/Teach_emotions"
         android:textStyle="bold"
         android:textAppearance="@style/welcome_to_"
         android:textAlignment="center"
@@ -81,7 +73,7 @@
         android:layout_width="match_parent"
         android:layout_height="102dp"
         android:layout_centerHorizontal="true"
-        android:text="@string/Create_tasks_2"
+        android:text="@string/Teach_emotions_2"
         android:textAppearance="@style/welcome_to_"
         android:autoSizeTextType="uniform"
         android:textAlignment="center"
@@ -109,7 +101,7 @@
         android:layout_marginBottom="25dp">
 
         <Button
-            android:id="@+id/starting_board_3_button_continue"
+            android:id="@+id/starting_board_4_button_continue"
             android:layout_width="match_parent"
             android:layout_height="54dp"
             android:layout_marginTop="30dp"
@@ -139,13 +131,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="130dp"
-            app:srcCompat="@drawable/onboarding_point_selected" />
+            app:srcCompat="@drawable/onboarding_point" />
         <ImageView
             android:id="@+id/imageView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="160dp"
-            app:srcCompat="@drawable/onboarding_point" />
+            app:srcCompat="@drawable/onboarding_point_selected" />
 
 
     </FrameLayout>
@@ -160,7 +152,7 @@
         android:layout_marginBottom="25dp">
 
         <Button
-            android:id="@+id/starting_board_3_button_back"
+            android:id="@+id/starting_board_4_button_back"
             android:background="@drawable/button_back"
             android:elevation="2dp"
             android:textAppearance="@style/button_back_text"
@@ -179,21 +171,5 @@
             android:translationZ="11px" />
 
     </FrameLayout>
-
-    <Button
-        android:id="@+id/starting_board_3_button_skip"
-        android:layout_width="85dp"
-        android:layout_height="54dp"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="105dp"
-        android:layout_marginRight="70dp"
-        android:background="@drawable/button_back"
-        android:elevation="2dp"
-        android:text="@string/_skip"
-        android:textAppearance="@style/button_back_text"></Button>
-
-
-
 
 </RelativeLayout>

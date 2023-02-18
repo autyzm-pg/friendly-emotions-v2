@@ -333,5 +333,7 @@
     <string name="_skip">POMIŃ</string>
     <string name="Create_tasks">Tworzenie zadań</string>
     <string name="Create_tasks_2">Twórz zadania z zestawem emocji do nauczenia, z przykładowymi lub niestandardowymi obrazkami i konfiguruj je specjalnie dla swojego ucznia.</string>
+    <string name="Teach_emotions">Naucz się emocji</string>
+    <string name="Teach_emotions_2">Uruchom grę w osobnej aplikacji Przyjazne Emocje i pozwól uczniowi uczyć się poprzez wybieranie właściwych obrazków!</string>
 
 </resources>
