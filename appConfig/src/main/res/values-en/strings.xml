@@ -332,6 +332,8 @@ The test mode does not use hints and reinforcements, the therapist should refrai
     <string name="_continue">CONTINUE</string>
     <string name="_back">BACK</string>
     <string name="_skip">SKIP</string>
+    <string name="Create_tasks">Create tasks</string>
+    <string name="Create_tasks_2">Create tasks with set of emotions to be learned, with example or custom images, and configure it specifically for your pupil.</string>
 
 </resources>
 

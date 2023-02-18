@@ -109,6 +109,11 @@
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme_1">
         </activity>
+        <activity
+            android:name=".ustawienia.StartingBoard3"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme_1">
+        </activity>
 
 <!--        <activity-->
 <!--            android:name="pg.smile.MainActivity"-->

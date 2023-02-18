@@ -331,5 +331,7 @@
     <string name="_continue">DALEJ</string>
     <string name="_back">WSTECZ</string>
     <string name="_skip">POMIŃ</string>
+    <string name="Create_tasks">Tworzenie zadań</string>
+    <string name="Create_tasks_2">Twórz zadania z zestawem emocji do nauczenia, z przykładowymi lub niestandardowymi obrazkami i konfiguruj je specjalnie dla swojego ucznia.</string>
 
 </resources>
