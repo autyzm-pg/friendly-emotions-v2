@@ -334,6 +334,8 @@ The test mode does not use hints and reinforcements, the therapist should refrai
     <string name="_skip">SKIP</string>
     <string name="Create_tasks">Create tasks</string>
     <string name="Create_tasks_2">Create tasks with set of emotions to be learned, with example or custom images, and configure it specifically for your pupil.</string>
+    <string name="Teach_emotions">Teach_emotions</string>
+    <string name="Teach_emotions_2">Run the game in separate, Friendly Emotion application, and let the student learn by choosing the correct pictures!</string>
 
 </resources>
 
